@@ -1,5 +1,7 @@
 # Assignment 1: Git and GitHub Basics #
 
+![image](https://https://imgs.xkcd.com/comics/git_2x.png)
+
 The purpose of this assigmment is to give you a basic working knowledge of `git` and [GitHub](https://github.com/), especially as they relate to code reviews.
 This may seem intimidating at first, but it quickly becomes second nature.
 You will use these same skills throughout your projects for handling code reviews.
