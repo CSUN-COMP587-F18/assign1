@@ -234,19 +234,20 @@ The first commit listed will be the one you just made, and will include your com
 ### Step 7: Push your Branch and Your Changes ###
 
 While you have made changes and they are safely in your branch, this branch exists only on your machine.
-You need to explicitly upload this branch to the server.
-This can be done with the following command:
+It cannot be accessed by anyone else working on the repository. You need to explicitly upload this branch 
+to the server. This can be done with the following command:
 
 ```console
 git push -u origin updated
 ```
 
 This command states to _push_ (upload) your `updated` branch to the `origin` remote.
-This will make the `updated` branch available to anyone else working on your repository.
+This will make the `updated` branch that you created be available to anyone else working on your repository.
 Additionally, if your machine were to fail, your `updated` branch would still be safe and sound online.
 
-Incidentally, if you make further commits to your branch, you need to explicitly upload them with this command.
-On subsequent runs, `git` will default to using the `origin` remote for the `updated` branch, so you'd only need to run:
+Incidentally, if you make further commits to your branch, you will need to explicitly upload them using this
+command; however on subsequent runs, `git` will default to using the `origin` remote for the `updated` branch,
+so you'd only need to run:
 
 ```console
 git push
