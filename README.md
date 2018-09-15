@@ -15,9 +15,7 @@ You will use these same skills throughout your projects for handling code review
 
 ### Step 0: Create a GitHub Account ###
 
-If you do not already have a [GitHub](https://github.com/) account, create one now.
-This should only take a couple minutes, and it's free.
-If you already have an account, you can use your existing account.
+If you do not already have a [GitHub](https://github.com/) account, create one now. This should only take a couple minutes, and it's free. If you already have an account, you can use your existing account.
 
 ### Step 1: Fork this Repository ###
 
@@ -52,10 +50,10 @@ This will probably be a directory named `comp587`, or something like that.
 In that directory, issue the following command:
 
 ```console
-git clone URL
+git clone [URL]
 ```
 
-...where `URL` is the URL above.
+...where `[URL]` is the URL above.
 This will download all the files in your fork to the local `assign1` directory, underneath whatever directory you're in.
 (The `assign1` directory will be created automatically.)
 
@@ -156,7 +154,7 @@ Now there are two branches (`master` and `updated`), and the `*` denotes that yo
 
 Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikipedia.org/wiki/Markdown) (specifically [GitHub-flavored Markdown](https://github.github.com/gfm/)) format.
 Your edit should somehow improve the content.
-This can mean adding further descriptions, adding demonstrative pictures, etc.
+This can mean adding further descriptions, adding demonstrative pictures, etc. You will also need to create a file called temp.txt.
 
 ### Step 6: Commit Your Changes ###
 
