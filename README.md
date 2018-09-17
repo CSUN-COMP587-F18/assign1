@@ -102,7 +102,8 @@ Note that this step only establishes where to sync from; it doesn't actually per
 Moreover, this syncing is not done automatically, nor would you generally want it to be automatic.
 We won't get into how to sync in this assignment, but see [these instructions](https://help.github.com/articles/syncing-a-fork/) if you're curious.
 It's good practice to establish the `upstream` immediately, even if you aren't going to use it immediately, and I want you to get in the habit of doing this.
-Incase you dont want to follow the link to sync the fork, ill explain. Once you're at your local working directory, run the command, git fetch upstream where any commits to master will be stored in upstream/master. Then, use "git checkout msater" to checkout the master branch. You can then sync by using git merge upstream/maser.
+Incase you dont want to follow the link to sync the fork, ill explain. Once you're at your local working directory, run the command, git fetch upstream where any commits to master will be stored in upstream/master. Then, use "git checkout msater" to checkout the master branch. You can then sync by using git merge upstream/maser. this is an edit
+
 
 ### Step 4: Create a New Local Branch ###
 
