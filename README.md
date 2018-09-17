@@ -9,6 +9,11 @@ You will use these same skills throughout your projects for handling code review
 - Learn GitHub basics: how to fork, submit a pull request, and assign code reviewers
 - Learn `git` basics: how to `clone`, `branch`, `commit`, `push`, and `pull`
 
+## More information ##
+
+- COMP_587 class website: [link](https://kyledewey.github.io/comp587-fall18/)
+- Project instruction detail: [link](https://kyledewey.github.io/comp587-fall18/project/)
+
 -----------
 
 ## Step-by-Step Instructions ##
