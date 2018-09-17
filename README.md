@@ -161,7 +161,7 @@ This can mean adding further descriptions, adding demonstrative pictures, etc.
 
 You can do this by opening the `README.md` file in a text editor
 ![starting a pull request](readme_files/folder.png)
-To insert an image and text such as shown above type in as follows in the text file
+To insert an image and text such as shown above type in as follows in the Markdown file
 ```
 You can do this by opening the `README.md` file in a text editor
 ![starting a pull request](readme_files/'Image_Name.png')
