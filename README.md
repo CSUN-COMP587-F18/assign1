@@ -158,6 +158,16 @@ Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikip
 Your edit should somehow improve the content.
 This can mean adding further descriptions, adding demonstrative pictures, etc.
 
+
+You can do this by opening the `README.md` file in a text editor
+![starting a pull request](readme_files/folder.png)
+To insert an image and text such as shown above type in as follows in the text file
+```
+You can do this by opening the `README.md` file in a text editor
+![starting a pull request](readme_files/'Image_Name.png')
+```
+
+
 ### Step 6: Commit Your Changes ###
 
 `git` knows what the state of the branch was before you started making edits, and will show you the changes made since your last _commit_.
