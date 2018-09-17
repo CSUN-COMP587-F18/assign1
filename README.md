@@ -1,4 +1,4 @@
-# Assignment 1: Git and GitHub Basics #
+## Assignment 1: Git and GitHub Basics ##
 
 The purpose of this assigmment is to give you a basic working knowledge of `git` and [GitHub](https://github.com/), especially as they relate to code reviews.
 This may seem intimidating at first, but it quickly becomes second nature.
@@ -18,6 +18,8 @@ You will use these same skills throughout your projects for handling code review
 If you do not already have a [GitHub](https://github.com/) account, create one now.
 This should only take a couple minutes, and it's free.
 If you already have an account, you can use your existing account.
+
+Sign up to get the Student Developer Pack, this provides you an upgraded Github experience and free gifts from Github partners [Sign up here](https://education.github.com/pack)
 
 ### Step 1: Fork this Repository ###
 
