@@ -289,3 +289,10 @@ In the next assignment, we'll work with these submitted pull requests for code r
 In this assignment, you've gone over some basics of using `git` and GitHub.
 You've forked and cloned repositories, made branches, committed code, and submitted a pull request.
 While this barely scratches the surface of what you can do with `git`, this describes ~80-90% of commonly-used functionality.
+
+
+## Extra Info ##
+
+If desired, this assignment could be done using a GUI for git. Some options for this include GitKraken, the github desktop app, etc.
+While these options are all functionally the same, I would recommend using the command line regardless because it helps establish a better understanding of what is going on.
+The best use case for the GUI is to view how the branches have been changing over time.
