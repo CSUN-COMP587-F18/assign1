@@ -19,6 +19,8 @@ If you do not already have a [GitHub](https://github.com/) account, create one n
 This should only take a couple minutes, and it's free.
 If you already have an account, you can use your existing account.
 
+Sign up to get the Student Developer Pack, this provides you an upgraded Github experience and free gifts from Github partners [Sign up here](https://education.github.com/pack)
+
 ### Step 1: Fork this Repository ###
 
 Go to the [main repository webpage](https://github.com/CSUN-COMP587-F18/assign1) for this repository.
