@@ -98,6 +98,15 @@ This command states to add a new remote named `upstream`, which points to `URL`.
 By convention, `upstream` points to the source we forked from.
 You can confirm that this command worked by running `git remote -v` again.
 
+You should see:
+
+```
+origin	git@github.com:your_username/assign1.git (fetch)
+origin	git@github.com:your_username/assign1.git (push)
+upstream	git@github.com:your_username/assign1.git (fetch)
+upstream	git@github.com:your_username/assign1.git (push)
+```
+
 Note that this step only establishes where to sync from; it doesn't actually perform the syncing.
 Moreover, this syncing is not done automatically, nor would you generally want it to be automatic.
 We won't get into how to sync in this assignment, but see [these instructions](https://help.github.com/articles/syncing-a-fork/) if you're curious.
@@ -221,7 +230,7 @@ git commit
 ```
 
 This will bring up an editor (honoring the `$EDITOR` environment variable), allowing you to write a descriptive message (the _commit message_) for your commit.
-Once you save your message, your commit will be done.
+Once you save your message, your commit will be done. To save the message, use [ESC] :wq [ENTER] where what is in the brackets is the key you use.
 You can verify that your commit did something like so:
 
 ```console
@@ -230,6 +239,7 @@ git log
 
 The above command will list all the commits that have happened to your code, underneath the branch you're on.
 The first commit listed will be the one you just made, and will include your commit message.
+
 
 ### Step 7: Push your Branch and Your Changes ###
 
