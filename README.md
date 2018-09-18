@@ -1,5 +1,6 @@
 # Assignment 1: Git and GitHub Basics #
 
+Welcome to the first assignment of COMP587!
 The purpose of this assigmment is to give you a basic working knowledge of `git` and [GitHub](https://github.com/), especially as they relate to code reviews.
 This may seem intimidating at first, but it quickly becomes second nature.
 You will use these same skills throughout your projects for handling code reviews.
@@ -289,3 +290,9 @@ In the next assignment, we'll work with these submitted pull requests for code r
 In this assignment, you've gone over some basics of using `git` and GitHub.
 You've forked and cloned repositories, made branches, committed code, and submitted a pull request.
 While this barely scratches the surface of what you can do with `git`, this describes ~80-90% of commonly-used functionality.
+
+## Useful Links ##
+
+[Link1] (https://education.github.com/git-cheat-sheet-education.pdf)
+[Link2] (https://www.geeksforgeeks.org/list-useful-github-commands/)
+[Link3] (https://rubygarage.org/blog/most-basic-git-commands-with-examples)
