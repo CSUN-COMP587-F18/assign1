@@ -51,7 +51,7 @@ On your local machine, go to a directory that makes sense to you for this assign
 This will probably be a directory named `comp587`, or something like that.
 In that directory, issue the following command:
 
-```console
+```bash
 git clone URL
 ```
 
@@ -70,7 +70,7 @@ To keep things in sync, we will take advantage of a `git` feature known as [remo
 For our purposes, a _remote_ is a glorified URL pointing to a remotely-accessible `git` repository somewhere.
 If you type the following command:
 
-```console
+```bash
 git remote -v
 ```
 
@@ -89,7 +89,7 @@ To keep things in sync with the original repository, we'll add the original repo
 First, get the `Clone or download` URL from the **original** repository, using the same process as in Step 2.
 Then, run the following command:
 
-```console
+```bash
 git remote add upstream URL
 ```
 
@@ -122,7 +122,7 @@ Eventually, you're changes will need to be incorporated into the original code; 
 First, let's see what branches you have already.
 Type the following command:
 
-```console
+```bash
 git branch
 ```
 
@@ -138,7 +138,7 @@ The `master` branch should _always_ compile, and it should be relatively bug-fre
 
 Let's make a new branch, using the following command:
 
-```console
+```bash
 git checkout -b updated
 ```
 
@@ -168,7 +168,7 @@ Being tanglible things, `git` allows us to do things like view code as it was at
 First, let's see what has changed.
 You can do this with the following command:
 
-```console
+```bash
 git status
 ```
 
@@ -194,7 +194,7 @@ The above output states that `README.md` has changed since your last commit, and
 You must explicitly tell `git` which files to _stage_ for a commit, where a staged file becomes part of the commit.
 You can stage files with `git add`, like so:
 
-```console
+```bash
 git add README.md temp.txt
 ```
 
@@ -216,7 +216,7 @@ The above output summarizes the changes this commit is introducing relative to t
 
 Once everything you want is staged, you can commit your changes like so:
 
-```console
+```bash
 git commit
 ```
 
@@ -224,7 +224,7 @@ This will bring up an editor (honoring the `$EDITOR` environment variable), allo
 Once you save your message, your commit will be done.
 You can verify that your commit did something like so:
 
-```console
+```bash
 git log
 ```
 
@@ -237,7 +237,7 @@ While you have made changes and they are safely in your branch, this branch exis
 You need to explicitly upload this branch to the server.
 This can be done with the following command:
 
-```console
+```bash
 git push -u origin updated
 ```
 
@@ -248,7 +248,7 @@ Additionally, if your machine were to fail, your `updated` branch would still be
 Incidentally, if you make further commits to your branch, you need to explicitly upload them with this command.
 On subsequent runs, `git` will default to using the `origin` remote for the `updated` branch, so you'd only need to run:
 
-```console
+```bash
 git push
 ```
 
