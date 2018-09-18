@@ -1,4 +1,4 @@
-# Assignment 1: Git and GitHub Basics #
+# Assignment 1: Git and GitHub Basics  #
 
 The purpose of this assigmment is to give you a basic working knowledge of `git` and [GitHub](https://github.com/), especially as they relate to code reviews.
 This may seem intimidating at first, but it quickly becomes second nature.
@@ -18,7 +18,7 @@ You will use these same skills throughout your projects for handling code review
 If you do not already have a [GitHub](https://github.com/) account, create one now.
 This should only take a couple minutes, and it's free.
 If you already have an account, you can use your existing account.
-
+---------------------------------------------------------------
 ### Step 1: Fork this Repository ###
 
 Go to the [main repository webpage](https://github.com/CSUN-COMP587-F18/assign1) for this repository.
@@ -30,6 +30,7 @@ You own this copy and have complete control over it.
 Notably, if the original repository changes, your fork will **not** automatically change; you created the copy from a specific point in time.
 We'll come back to this in a bit.
 
+----------------------------------------------------------------------
 ### Step 2: Clone your Fork ###
 
 > The remainder of these steps assume you're using the `git` command on the command-line.
@@ -60,6 +61,7 @@ This will download all the files in your fork to the local `assign1` directory, 
 (The `assign1` directory will be created automatically.)
 
 Don't make any changes just yet; there is still some setup we need to do.
+----------------------------------------------------------------------------------------
 
 ### Step 3: Setup your Fork to Sync with the Original ###
 
@@ -103,6 +105,7 @@ Moreover, this syncing is not done automatically, nor would you generally want i
 We won't get into how to sync in this assignment, but see [these instructions](https://help.github.com/articles/syncing-a-fork/) if you're curious.
 It's good practice to establish the `upstream` immediately, even if you aren't going to use it immediately, and I want you to get in the habit of doing this.
 
+-------------------------------------------------------------------------------------
 ### Step 4: Create a New Local Branch ###
 
 In this step, we'll introduce _branches_, which are an essential `git` feature.
@@ -152,12 +155,14 @@ If you run `git branch` again, you should see the following:
 
 Now there are two branches (`master` and `updated`), and the `*` denotes that you're on the `updated` branch.
 
+--------------------------------------------------------------------------------
 ### Step 5: Improve this Text ###
 
 Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikipedia.org/wiki/Markdown) (specifically [GitHub-flavored Markdown](https://github.github.com/gfm/)) format.
 Your edit should somehow improve the content.
 This can mean adding further descriptions, adding demonstrative pictures, etc.
 
+-------------------------------------------------------------------------------
 ### Step 6: Commit Your Changes ###
 
 `git` knows what the state of the branch was before you started making edits, and will show you the changes made since your last _commit_.
@@ -231,6 +236,7 @@ git log
 The above command will list all the commits that have happened to your code, underneath the branch you're on.
 The first commit listed will be the one you just made, and will include your commit message.
 
+-------------------------------------------------------------------
 ### Step 7: Push your Branch and Your Changes ###
 
 While you have made changes and they are safely in your branch, this branch exists only on your machine.
@@ -252,6 +258,7 @@ On subsequent runs, `git` will default to using the `origin` remote for the `upd
 git push
 ```
 
+--------------------------------------------------------------
 ### Step 8: Submit a Pull Request ###
 
 Almost everything discussed so far has been about selective isolation of your code from the rest of the codebase.
