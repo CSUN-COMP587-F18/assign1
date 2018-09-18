@@ -48,8 +48,20 @@ Clicking this button will display a URL, which will be something like `git@githu
 Have this URL handy somewhere (or even better, copy it to the clipboard).
 
 On your local machine, go to a directory that makes sense to you for this assignment.
-This will probably be a directory named `comp587`, or something like that.
-In that directory, issue the following command:
+This will probably be a directory named `comp587`, or something like that. You can create this directory manually
+through your computer's file explorer. 
+
+Once created, type in the following command to navigate to your newly created directory:
+```console
+cd 'comp587'
+```
+
+You can issue the following command to verify that you are now in the comp587 directory.
+```console
+ls
+```
+
+Now, in that directory, issue the following command:
 
 ```console
 git clone URL

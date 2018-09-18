@@ -1,0 +1,14 @@
+# Following text added to README.md on lines 51-62
+
+You can create this directory manually
+through your computer's file explorer. 
+
+Once created, type in the following command to navigate to your newly created directory:
+```console
+cd 'comp587'
+```
+
+You can issue the following command to verify that you are now in the comp587 directory.
+```console
+ls
+```
