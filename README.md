@@ -1,6 +1,6 @@
 # Assignment 1: Git and GitHub Basics #
 
-The purpose of this assigmment is to give you a basic working knowledge of `git` and [GitHub](https://github.com/), especially as they relate to code reviews.
+The purpose of this assignment is to give you a basic working knowledge of `git` and [GitHub](https://github.com/), especially as they relate to code reviews.
 This may seem intimidating at first, but it quickly becomes second nature.
 You will use these same skills throughout your projects for handling code reviews.
 
@@ -156,14 +156,14 @@ Now there are two branches (`master` and `updated`), and the `*` denotes that yo
 
 Make an edit to this file (`README.md`), which is in [Markdown](https://en.wikipedia.org/wiki/Markdown) (specifically [GitHub-flavored Markdown](https://github.github.com/gfm/)) format.
 Your edit should somehow improve the content.
-This can mean adding further descriptions, adding demonstrative pictures, etc.
+This can mean adding further descriptions, adding demonstrative pictures, changing instructions to make an easier to complete assignment, etc.
 
 ### Step 6: Commit Your Changes ###
 
 `git` knows what the state of the branch was before you started making edits, and will show you the changes made since your last _commit_.
 A commit is an explicit point where you effectively say "save this content".
 Commits represent the content of all files at distinct points in time.
-Being tanglible things, `git` allows us to do things like view code as it was at a particular commit, undo the changes made at a commit, and so on.
+Being tangible things, `git` allows us to do things like view code as it was at a particular commit, undo the changes made at a commit, and so on.
 
 First, let's see what has changed.
 You can do this with the following command:
