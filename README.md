@@ -16,7 +16,6 @@ You will use these same skills throughout your projects for handling code review
 ### Step 0: Create a GitHub Account ###
 
 If you do not already have a [GitHub](https://github.com/) account, create one now.
-This should only take a couple minutes, and it's free.
 If you already have an account, you can use your existing account.
 
 ### Step 1: Fork this Repository ###
@@ -27,8 +26,7 @@ Go to the [main repository webpage](https://github.com/CSUN-COMP587-F18/assign1)
 
 A fork is effectively a copy of the entire repository, frozen at the point when you created the fork.
 You own this copy and have complete control over it.
-Notably, if the original repository changes, your fork will **not** automatically change; you created the copy from a specific point in time.
-We'll come back to this in a bit.
+Notably, if the original repository changes, your fork will **not** automatically change.
 
 ### Step 2: Clone your Fork ###
 
@@ -48,7 +46,7 @@ Clicking this button will display a URL, which will be something like `git@githu
 Have this URL handy somewhere (or even better, copy it to the clipboard).
 
 On your local machine, go to a directory that makes sense to you for this assignment.
-This will probably be a directory named `comp587`, or something like that.
+This will probably be a directory named `comp587`.
 In that directory, issue the following command:
 
 ```console
@@ -56,17 +54,13 @@ git clone URL
 ```
 
 ...where `URL` is the URL above.
-This will download all the files in your fork to the local `assign1` directory, underneath whatever directory you're in.
-(The `assign1` directory will be created automatically.)
-
-Don't make any changes just yet; there is still some setup we need to do.
+This will download all the files in your fork to the local `assign1` directory. (The directory is created in whatever directory you're in.)
 
 ### Step 3: Setup your Fork to Sync with the Original ###
 
 At the end of the first step, it was established that your fork is a **copy** of the original repository, frozen in a certain point in time.
-While this has its uses, it's a little annoying, because we often want to be in sync with the original repository.
 
-To keep things in sync, we will take advantage of a `git` feature known as [remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes).
+To keep things in sync, we will use a `git` feature known as [remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes).
 For our purposes, a _remote_ is a glorified URL pointing to a remotely-accessible `git` repository somewhere.
 If you type the following command:
 
@@ -86,7 +80,7 @@ The above information states that you have one remote named `origin`, from which
 By convention, `origin` is wherever the "home" of this repository is, which corresponds to your particular fork.
 
 To keep things in sync with the original repository, we'll add the original repository as a remote.
-First, get the `Clone or download` URL from the **original** repository, using the same process as in Step 2.
+First, get the `Clone or download` URL from the **original** repository.
 Then, run the following command:
 
 ```console
@@ -98,29 +92,24 @@ This command states to add a new remote named `upstream`, which points to `URL`.
 By convention, `upstream` points to the source we forked from.
 You can confirm that this command worked by running `git remote -v` again.
 
-Note that this step only establishes where to sync from; it doesn't actually perform the syncing.
-Moreover, this syncing is not done automatically, nor would you generally want it to be automatic.
-We won't get into how to sync in this assignment, but see [these instructions](https://help.github.com/articles/syncing-a-fork/) if you're curious.
-It's good practice to establish the `upstream` immediately, even if you aren't going to use it immediately, and I want you to get in the habit of doing this.
+Note that this step only establishes where to sync from; it doesn't perform the syncing.
+IF you'd like to learn about synching see [these instructions](https://help.github.com/articles/syncing-a-fork/).
+It's good practice to establish the `upstream` immediately.
 
 ### Step 4: Create a New Local Branch ###
 
 In this step, we'll introduce _branches_, which are an essential `git` feature.
-Branches essentially allow you to split into a sort of parallel universe with respect to your code.
-In one universe (the original universe), your code is completely unchanged.
-In another universe (the branched universe), you make changes to your code.
-From a you-centric standpoint, this allows you to easily switch back and forth between the original and modified code.
+Branches allow you to split into a sort of parallel universe with respect to your code.
+In one universe, your code is completely unchanged.
+In another, you make changes to your code.
+This allows you to easily switch back and forth between the original and modified code.
 You can add features, make changes, fix bugs, etc., all without worried about breaking functionality that's already there.
-After all, if a branch goes completely off the rails and everything breaks, you can always switch back to the original branch, as if nothing changed.
 
-From a we-centric standpoint, branches allow us to selectively isolate ourselves from each other.
-Instead of everyone modifying the same code (involving lots of us stepping on each other's toes), we modify _branches_.
-Ideally, only one or few developers are working on a branch at a time, minimizing the amount of work caused by someone changing something out from under you.
-With this in mind, it's good practice to **always** make changes on a branch, as opposed to the original code.
-Eventually, you're changes will need to be incorporated into the original code; we'll get to that in a bit.
+Branches allow us to selectively isolate ourselves from each other.
+It's good practice to **always** make changes on a branch, as opposed to the original code.
+Only a few developers should be working on a branch at a time.
 
-First, let's see what branches you have already.
-Type the following command:
+To see what branches you have type the following command:
 
 ```console
 git branch
